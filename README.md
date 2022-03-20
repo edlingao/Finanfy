@@ -1,3 +1,10 @@
+# Finanfy
+
+Finanfy is a small frontend webapp that helps you manage your expenses
+
+## Figma
+
+[Figma files](https://www.figma.com/community/file/1087491181807409421)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
