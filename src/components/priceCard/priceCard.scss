@@ -1,0 +1,31 @@
+$border:  0.313rem;
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+ 
+  height: 3.75rem;
+  min-width: 5.625rem;
+  margin-right: 0.625rem;
+  border-radius: $border;
+
+  .name,
+  .quantity {
+    width: 100%;
+    text-align: center;
+  }
+
+  .name {
+    height: 1.313rem;
+    border-radius: 0;
+  }
+
+  .quantity {
+    height: 2.375rem;
+    border-radius: 0 0 $border $border;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

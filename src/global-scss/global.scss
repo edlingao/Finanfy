@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import './vars.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.font-size {
+
+  &-goliat {
+    font-size: 2.25rem;
+  }
+
+  &-hercules {
+    font-size: 1.5rem;
+  }
+
+  &-regular {
+    font-size: 1.125rem;
+  }
+
+  &-ant {
+    font-size: 0.875rem;
+  }
+}
+
+.color {
+
+  &-white {
+    &-font {
+      color: $just-white;
+    }
+    &-fill {
+      fill: $just-white;
+    }
+    &-background {
+      background: $just-white;
+    }
+  }
+
+  &-black {
+    &-font {
+      color: $true-black;
+    }
+    &-fill {
+      fill: $true-black;
+    }
+    &-background {
+      background: $true-black;
+    }
+  }
+
+  &-blue {
+    &-font {
+      color: $evil-blue;
+    }
+    &-fill {
+      fill: $evil-blue;
+    }
+    &-background {
+      background: $evil-blue
+    }
+  }
+
+  &-red {
+    &-font {
+      color: $true-red;
+    }
+    &-fill {
+      fill: $true-red;
+    }
+    &-background {
+      background: $true-red;
+    }
+  }
+
+  &-orange {
+    &-font {
+      color: $true-orange;
+    }
+    &-fill {
+      fill: $true-orange;
+    }
+    &-background {
+      background: $true-orange;
+    }
+  }
+
+  &-yellow {
+    &-font {
+      color: $true-yellow;
+    }
+    &-fill {
+      fill: $true-yellow;
+    }
+    &-background {
+      background: $true-yellow;
+    }
+  }
+
+  &-light-yellow {
+    &-font {
+      color: $good-yellow;
+    }
+    &-fill {
+      fill: $good-yellow;
+    }
+    &-background {
+      background: $good-yellow;
+    }
+  }
+}
