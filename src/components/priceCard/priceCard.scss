@@ -9,6 +9,7 @@ $border:  0.313rem;
   margin-right: 0.625rem;
   border-radius: $border;
 
+
   .name,
   .quantity {
     width: 100%;
@@ -27,5 +28,10 @@ $border:  0.313rem;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &.fluid {
+    width: auto;
+    min-width: unset;
   }
 }

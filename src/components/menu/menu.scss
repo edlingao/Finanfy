@@ -1,0 +1,36 @@
+@import '../../global-scss/vars.scss';
+.filled-menu {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.563rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+
+  position: sticky;
+  bottom: 1.563rem;
+}
+.menu {
+  pointer-events: auto;
+  width: 21.875rem;
+  height: 3.75rem;
+  border-radius: 10000rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  .icon {
+    transition: all .2s;
+    fill: rgba($color: $true-yellow, $alpha: 0.6);
+
+    &:hover,
+    &.selected{
+      fill: $true-yellow;
+    }
+  }
+}

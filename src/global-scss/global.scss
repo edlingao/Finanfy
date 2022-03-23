@@ -8,6 +8,24 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+@mixin color-properties($color) {
+  &-font {
+    color: $color;
+  }
+  &-fill {
+    fill: $color;
+  }
+  &-background {
+    background: $color;
+  }
+}
 
 .font-size {
 
@@ -26,91 +44,50 @@
   &-ant {
     font-size: 0.875rem;
   }
+  &-atom {
+    font-size: 0.75rem;
+  }
 }
 
 .color {
 
   &-white {
-    &-font {
-      color: $just-white;
-    }
-    &-fill {
-      fill: $just-white;
-    }
-    &-background {
-      background: $just-white;
-    }
+    @include color-properties($just-white)
   }
 
   &-black {
-    &-font {
-      color: $true-black;
-    }
-    &-fill {
-      fill: $true-black;
-    }
-    &-background {
-      background: $true-black;
-    }
+    @include color-properties($true-black);
   }
 
   &-blue {
-    &-font {
-      color: $evil-blue;
-    }
-    &-fill {
-      fill: $evil-blue;
-    }
-    &-background {
-      background: $evil-blue
-    }
+    @include color-properties($evil-blue);
   }
 
   &-red {
-    &-font {
-      color: $true-red;
-    }
-    &-fill {
-      fill: $true-red;
-    }
-    &-background {
-      background: $true-red;
-    }
+    @include color-properties($true-red);
+  }
+
+  &-dark-red {
+    @include color-properties($evil-red);
   }
 
   &-orange {
-    &-font {
-      color: $true-orange;
-    }
-    &-fill {
-      fill: $true-orange;
-    }
-    &-background {
-      background: $true-orange;
-    }
+    @include color-properties($true-orange);
   }
 
   &-yellow {
-    &-font {
-      color: $true-yellow;
-    }
-    &-fill {
-      fill: $true-yellow;
-    }
-    &-background {
-      background: $true-yellow;
-    }
+    @include color-properties($true-yellow);
   }
 
   &-light-yellow {
-    &-font {
-      color: $good-yellow;
-    }
-    &-fill {
-      fill: $good-yellow;
-    }
-    &-background {
-      background: $good-yellow;
-    }
+    @include color-properties($good-yellow);
+  }
+
+  &-dark-green {
+    @include color-properties($evil-green)
+  }
+
+  &-light-green {
+    @include color-properties($ligth-green);
   }
 }

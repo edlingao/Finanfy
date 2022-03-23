@@ -1,0 +1,67 @@
+$br: 0.938rem;
+
+.expense-card {
+  width: 18.125rem;
+  height: 7.125rem;
+  margin: auto;
+  margin-bottom: 0.625rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  border-radius: $br;
+  overflow: hidden;
+
+  .expense-header,
+  .expense-mid,
+  .expense-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .expense-header {
+    height: 1.875rem;
+    padding: 0 0.625rem;
+    .name-section,
+    .pay-state {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .pay-state {
+      .pay-message {
+        margin-right: 0.625rem;
+      }
+    }
+  }
+
+
+
+  .expense-footer,
+  .expense-mid {
+    height: 5.25rem;
+    
+    .quantity-square {
+      width: 6.25rem;
+    }
+    .date-square {
+      width: 11.875rem;
+    }
+
+    .date-square,
+    .quantity-square {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .expense-mid {
+    height: 1.25rem;
+    text-align: center;
+  }
+}
