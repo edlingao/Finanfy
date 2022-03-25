@@ -16,76 +16,12 @@ export function Home() {
         <Header >
           <PriceCard name='EntradaEntradaEntradaEntradaEntradaEntrada' quantity={12000} yellow fluid/>
           <PriceCard name='Entrada' quantity={12000}/>
+          <PriceCard name='Entrada' quantity={12000} yellow/>
           <PriceCard name='Entrada' quantity={12000}/>
-          <PriceCard name='Entrada' quantity={12000}/>
-          <PriceCard name='Entrada' quantity={12000}/>
-          <PriceCard name='Entrada' quantity={12000}/>
+          <PriceCard name='Entrada' quantity={12000} yellow/>
         </Header>
         <Scroller>
-          <CollapsableCard date={'Hoy 12 de Marzo'}>
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-          </CollapsableCard>
-          <CollapsableCard date={'Hoy 12 de Marzo'}>
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-          </CollapsableCard>
-          <CollapsableCard date={'Hoy 12 de Marzo'}>
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-          </CollapsableCard>
-          <CollapsableCard date={'Hoy 12 de Marzo'}>
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-            <ExpenseCard name='hola' date={'123'} quantity={123}  />
-          </CollapsableCard>
+          
         </Scroller>
         <Menu home/>
       </View>

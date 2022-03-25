@@ -13,12 +13,11 @@
   bottom: 1.563rem;
 }
 .menu {
-  pointer-events: auto;
+  pointer-events: none;
   width: 21.875rem;
   height: 3.75rem;
   border-radius: 10000rem;
   padding: 0.625rem 1.25rem;
-  cursor: pointer;
 
   display: flex;
   justify-content: space-between;
@@ -27,6 +26,8 @@
   .icon {
     transition: all .2s;
     fill: rgba($color: $true-yellow, $alpha: 0.6);
+    cursor: pointer;
+    pointer-events: auto;
 
     &:hover,
     &.selected{
