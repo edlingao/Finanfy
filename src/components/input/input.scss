@@ -1,0 +1,30 @@
+@import '../../global-scss/vars.scss';
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    width: 90%;
+    
+    .label {
+      margin-left: 1.25rem;
+      margin-bottom: 0.313rem;
+    }
+    .input {
+      border: 0;
+      border-radius: 10000rem;
+      height: 3rem;
+      width: 100%;
+    
+      padding: 0.875rem 1.25rem;
+      outline: none;
+    
+      background: rgba($color: $true-yellow, $alpha: 0.5);
+    
+      &::placeholder {
+        color: $good-yellow;
+      }
+    }
+  }
+}
