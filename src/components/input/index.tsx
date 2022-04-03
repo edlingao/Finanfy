@@ -1,34 +1,34 @@
 import React from "react";
-import { Calendar } from './calendar';
+import { CalendarComponent } from './calendar';
 import { Expense } from './expense';
 import { RegularInput } from "./regular";
 
 import './input.scss';
+import { Moment } from "moment";
 
 interface Props {
   title: string,
-  placeholder: string,
   Icon?:  React.FunctionComponent<React.SVGProps<SVGSVGElement> & { title?: string }>, // <- SVG Icon
   number?: Boolean,
   date?: Boolean,
   expense?: Boolean,
+  onChange?(): string | Moment, 
 }
 
-export function Input({title, Icon, placeholder, number = false, date = false, expense = false}: Props) {
+export function Input({title, Icon, number = false, date = false, expense = false}: Props) {
   
 
   const InputType = () => {
     
     if(date) {
-      return (<Calendar />)
+      return (<CalendarComponent />)
     }
   
     if(expense) {
       return (<Expense />)
     }
 
-    
-    return (<RegularInput type={ number ? 'number' : 'text' } placehoder={placeholder}/>)
+    return (<RegularInput Icon={Icon} type={ number ? 'number' : 'text' } placehoder={title}/>)
   }
 
 

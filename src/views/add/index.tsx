@@ -19,8 +19,11 @@ export function Add() {
         <PriceCard name='Entrada' quantity={12000} yellow/>
       </Header>
       <Scroller>
-        <p className="main-title font-size-goliat text-align-center color-blue-font">REGSITRAR GASTO NUEVO</p>
-        <Input title='Nombre del gasto' placeholder='Nombre del gasto' />
+        <p className="main-title font-size-goliat text-align-center color-blue-font">REGISTRAR GASTO NUEVO</p>
+        <Input title='Nombre del gasto' />
+        <Input title='Precio del gasto' number />
+        <Input title='Fecha del gasto' date />
+        <Input title='Periodo del gasto' expense />
       </Scroller>
       <Menu add />
     </View>

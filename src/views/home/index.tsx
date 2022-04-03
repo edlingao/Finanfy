@@ -21,7 +21,9 @@ export function Home() {
           <PriceCard name='Entrada' quantity={12000} yellow/>
         </Header>
         <Scroller>
-          
+          <CollapsableCard date={'HOLA'}>
+            <ExpenseCard date={'HOLA'} name={"Coppel"} quantity={21.00} />
+          </CollapsableCard>
         </Scroller>
         <Menu home/>
       </View>
